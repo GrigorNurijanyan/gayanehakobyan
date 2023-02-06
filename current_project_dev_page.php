@@ -52,9 +52,9 @@
                             </div>
                         </a>
                         <a href="./current_project_dev_page_painting.php" class="dev-page-item">
-                            <img src="./assets/design-background.png" alt="Image 2"/>
+                            <img src="./assets/painting_background.png" alt="Image 2"/>
                             <div class="dev-page-title">
-                                Painting ?
+                                Painting
                             </div>
                         </a>
                         <a href="./current_project_dev_page_design.php" class="dev-page-item">
@@ -63,10 +63,10 @@
                                 Design
                             </div>
                         </a>
-                        <a href="./current_project_dev_page_theater.php" class="dev-page-item">
-                            <img src="./assets/theater-background.png" alt="Image 4"/>
+                        <a href="./current_project_dev_page_foreign_language.php" class="dev-page-item">
+                            <img src="./assets/foreign-language-background.png" alt="Image 4"/>
                             <div class="dev-page-title">
-                                Foreign Languages ?
+                                Foreign Languages
                             </div>
                         </a>
                         <a href="./current_project_dev_page_computer.php" class="dev-page-item">

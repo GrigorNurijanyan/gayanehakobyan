@@ -58,6 +58,37 @@
                     <div class="support-to-parent-middle-text">
                         <h5 class>"Go, see ..." Flame. Mothers of children attending the Development Center develop their imagination and talents.</h5>
                     </div>
+                    <div class="multiple-image-wrapper multiple-image-flex four-image" style="margin-bottom: 16px;">
+                        <img src="./assets/older-garden-background.png" alt="Image 1"/>
+                        <img src="./assets/bible-viewpoint-background.png" alt="Image 2"/>
+                        <img src="./assets/bible-viewpoint-background-completed-project.png" alt="Image 3"/>
+                        <img src="./assets/birth-of-ministry-image1.png" alt="Image 4"/>
+                        <img src="./assets/help-border-villiages-background.png" alt="Image 5"/>
+                        <img src="./assets/older-garden-background.png" alt="Image 1"/>
+                        <img src="./assets/bible-viewpoint-background.png" alt="Image 2"/>
+                        <img src="./assets/bible-viewpoint-background-completed-project.png" alt="Image 3"/>
+                        <img src="./assets/birth-of-ministry-image1.png" alt="Image 4"/>
+                        <img src="./assets/help-border-villiages-background.png" alt="Image 5"/>
+                        <img src="./assets/birth-of-ministry-image1.png" alt="Image 4"/>
+                        <img src="./assets/help-border-villiages-background.png" alt="Image 5"/>
+                    </div>
+                </div>
+                <div class="testimonies-long-title-wrapper">
+                    <div class="container">
+                        <div class="multiple-image-wrapper multiple-image-flex" style="margin: 0">
+                            <img src="./assets/older-garden-background.png" alt="Image 1"/>
+                            <img src="./assets/bible-viewpoint-background.png" alt="Image 2"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="multiple-image-wrapper multiple-image-flex five-image">
+                        <img src="./assets/woman2.png" alt="Image 1"/>
+                        <img src="./assets/woman2.png" alt="Image 2"/>
+                        <img src="./assets/woman2.png" alt="Image 2"/>
+                        <img src="./assets/woman2.png" alt="Image 2"/>
+                        <img src="./assets/woman2.png" alt="Image 2"/>
+                    </div>
                 </div>
                 <div class="text-center-block"></div>
             </div>

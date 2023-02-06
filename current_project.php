@@ -51,17 +51,6 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="./current_project_dev_page.php" class="book-item-padding">
-                            <div class="book-flex">
-                                <div class="book-info">
-                                    <div class="book-line"></div>
-                                    <span>DEVELOPMENT CENTER  PRESENTS</span>
-                                </div>
-                                <div class="book-item">
-                                    <img src="./assets/development-center-background.png" alt="info 2"/>
-                                </div>
-                            </div>
-                        </a>
                         <a href="./current_project_support_disabilities_people.php" class="book-item-padding">
                             <div class="book-flex">
                                 <div class="book-info">

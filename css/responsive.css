@@ -142,6 +142,12 @@
   .multiple-image-wrapper.multiple-image-flex img {
     width: 48%;
   }
+  .multiple-image-wrapper.multiple-image-flex.four-image img {
+    width: 32%;
+  }
+  .multiple-image-wrapper.multiple-image-flex.five-image img {
+    width: 32%;
+  }
   .dev-page-items-wrapper {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -275,6 +281,12 @@
     grid-template-columns: repeat(1, 1fr);
   }
   .multiple-image-wrapper.multiple-image-flex img {
+    width: 100%;
+  }
+  .multiple-image-wrapper.multiple-image-flex.four-image img {
+    width: 100%;
+  }
+  .multiple-image-wrapper.multiple-image-flex.five-image img {
     width: 100%;
   }
   .books-and-audiobooks-page-wrapper .book-item-wrapper {

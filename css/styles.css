@@ -258,6 +258,10 @@ header {
   width: 100%;
   object-fit: cover;
 }
+.book-item-padding.slick-slide img {
+  border-radius: 15px 15px 0 0;
+  height: 270px;
+}
 .book-item p {
   margin: 0;
   padding: 10px 20px;
@@ -641,6 +645,12 @@ footer {
 }
 .multiple-image-wrapper.multiple-image-flex img {
   width: 31.333%;
+}
+.multiple-image-wrapper.multiple-image-flex.four-image img {
+  width: 24%;
+}
+.multiple-image-wrapper.multiple-image-flex.five-image img {
+  width: 19%;
 }
 .multiple-video-wrapper {
   display: grid;
