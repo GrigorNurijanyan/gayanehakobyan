@@ -1,0 +1,477 @@
+.header-side-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: var(--white); 
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding: 60px 0;
+}
+
+.hamburger-icon {
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    display: none;
+}
+
+.hamburger-icon img {
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1230px) {
+    .flags-wrapper {
+        .flag-item {
+            img {
+                width: 160px;
+            }
+            p {
+                left: 50px;
+                bottom: 85px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    .header-logo img {
+        width: 170px;
+    }
+
+    .books-slider {
+        padding: 0 15px;
+        .slick-arrow {
+            height: 50px;
+        }
+    }
+
+    .flags-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .hamburger-icon {
+        display: flex;
+    }
+
+    .header-row ul, .search-input-with-language-dropdown, .language-dropdown {
+        display: none;
+    }
+
+    .book-item {
+        p {
+            line-height: 20px;
+            font-size: 14px;
+        }
+    }
+
+    .book-item-padding {
+        padding: 60px 10px 0;
+    }
+
+    .header-side-nav {
+        .closebtn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 65px;
+            color: black;
+            text-decoration: none;
+            position: absolute;
+            top: 0px;
+            right: 20px;
+        }
+    
+        .header-logo {
+            display: flex;
+            justify-content: center;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            margin: 20px 0 0 0;
+            padding: 0;
+            li {
+                list-style: none;
+                padding: 10px 20px;
+                position: relative;
+                display: flex;
+                align-items: center;
+                a {
+                    color: var(--lightblue);
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    font-weight: bold;
+                    &:hover {
+                        &:after {
+                            content: '';
+                            height: 1px;
+                            width: 100%;
+                            background-color: #C1A36C;
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .search-input-with-language-dropdown {
+            display: flex;
+            margin: 0 auto;
+            padding: 0 20px;
+            .search-input {
+                border: 1px solid #ed3237;
+            }
+        }
+
+        .language-dropdown {
+            display: flex;
+            margin: 0;
+            justify-content: center;
+            .dropbtn {
+                margin: 0 auto;
+            }
+            .dropdown-content.show {
+                right: auto;
+            }
+        }
+    }
+
+    .birth-of-ministry-page-wrapper {
+        .multiple-row-textes {
+            p {
+                width: 50%;
+            }
+        }
+    }
+
+    .mixing-photo-and-text-wrapper {
+        flex-direction: column;
+        align-items: center;
+
+        .second-part {
+            padding-left: 0;
+        }
+    }
+
+    .multiple-video-wrapper, .multiple-image-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .multiple-image-wrapper.multiple-image-flex {
+        img {
+            width: 48%;
+        }
+    }
+
+    .dev-page-items-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .testimonies-slider {
+        .testimonies-slider-item {
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .body-slider-wrapper-with-text {
+        h2 {
+            font-size: 42px;
+            padding: 50px 20px 0 80px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+    .flags-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        .flag-item {
+            p {
+                left: 68px;
+                width: 90%;
+            }
+        }
+    }
+
+    .birth-of-ministry-page-wrapper {
+        .text-center-block {
+            &.has-margin {
+                margin-top: -50px;
+            }
+        }
+    }
+
+    .video-with-text-and-images-wrapper {
+        flex-direction: column;
+        iframe {
+            margin-bottom: 20px;
+        }
+        .kitchen-trainings-wrapper {
+            margin: 0;
+            padding-bottom: 50px;
+            display: flex;
+            flex-direction: column;
+        }
+        &.row-video {
+            flex-direction: column-reverse;
+        }
+    }
+
+    .multiple-video-wrapper {
+        &.multiple-video-for-kitchen-training {
+            margin-top: 0;
+        }
+    }
+
+    .travel-foot-img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 776px) {
+    header {
+        top: 30px;
+        height: 40px;
+    }
+
+    .hamburger-icon {
+        height: 40px;
+
+        img {
+            width: 30px;
+            height: 20px;
+        }
+    }
+
+    .header-logo img {
+        width: 100px;
+    }
+
+    .home-page-books-info-wrapper {
+        padding: 40px 0;
+    }
+
+    .books-slider {
+        padding: 0;
+    }
+
+    .contact-page-wrapper {
+        padding-top: 140px;
+    }
+
+    .contact-page-container {
+        padding-left: 0;
+    }
+
+    .pages-subinfo-wrapper .book-item-padding {
+        width: 50%;
+        padding: 40px 10px;
+    }
+
+    .pages-subinfo-wrapper .books-slider {
+        flex-wrap: wrap;   
+    }
+
+    .author-page-wrapper {
+        padding-top: 100px;
+        .container {
+            flex-direction: column;
+        }
+
+        .author-page-left-side {
+            p {
+                font-size: 16px;
+            }
+            max-width: 100%;
+        }
+
+        .author-page-right-side {
+            width: 100%;
+        }
+    }
+
+    .birth-of-ministry-page-wrapper {
+        .float-image {
+            float: none;
+            &.left {
+                float: none;
+                margin: 20px 0 0 0;
+            }
+
+        }
+        .float-image-with-background-and-title {
+            width: 100%;
+            height: 100%;
+            background-color: transparent;
+            &.landscape {
+                width: 100%;
+                height: 100%;
+            }
+            img {
+                background-color: var(--gold);
+            }
+        }
+    }
+
+    .mixing-photo-and-text-wrapper {
+        .first-part {
+            img {
+                width: 100%;
+            }
+        }
+        .second-part {
+            flex-direction: column;
+            .paragraph-with-name {
+                padding-left: 0;
+                padding-top: 20px;
+            }
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .hearts-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .multiple-video-wrapper, .multiple-image-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .multiple-image-wrapper.multiple-image-flex {
+        img {
+            width: 100%;
+        }
+    }
+
+    .books-and-audiobooks-page-wrapper {
+        .book-item-wrapper {
+            flex-direction: column;
+            .book-description-wrapper {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .restroation-wrapper {
+        .restoration-image-with-text {
+            flex-direction: column-reverse;
+            h6 {
+                margin: 0 0 58px 0;
+                width: 100%;
+                &:after {
+                    height: 70px;
+                }
+            }
+            & + .restoration-image-with-text {
+                flex-direction: column;
+                h6 {
+                    text-align: left;
+                    padding-left: 20px;
+                    &:after {
+                        right: auto;
+                        left: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .dev-page-dancing-wrapper {
+        margin: 50px auto 100% auto;
+        .dancing-block-wrapper {
+            padding: 0;
+        }
+    }
+
+    .body-slider-wrapper-with-text {
+        h2 {
+            font-size: 24px;
+            padding: 30px 20px 0 60px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+    .pages-subinfo-wrapper .book-item-padding {
+        width: 100%;
+    }
+    .birth-of-ministry-page-wrapper {
+        .multiple-row-textes {
+            p {
+                width: 100%;
+                padding: 0;
+            }
+        }
+
+        .text-center-block {
+            &.has-margin {
+                margin: 0;
+            }
+        }
+    }
+
+    .hearts-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .flags-wrapper {
+        .flag-item {
+            p {
+                bottom: 0;
+                left: 0;
+           }
+        }
+    }
+
+    .restroation-wrapper {
+        .restoration-image-with-text {
+            iframe {
+                height: 250px;
+            }
+        } 
+    }
+
+    .video-with-text-and-images-wrapper {
+        iframe, img {
+            width: 100%;
+        }
+    }
+
+    .dev-page-items-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .testimonies-slider {
+        .testimonies-slider-item {
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .body-slider-wrapper-with-text {
+        h2 {
+            font-size: 18px;
+            padding: 90px 10px 0 20px;
+        }
+    }
+}
+
