@@ -445,6 +445,13 @@ footer {
 .birth-of-ministry-page-wrapper .text-center-block.has-margin {
   margin-top: -80px;
 }
+.birth-of-ministry-page-wrapper .text-center-block.as-header {
+  color: var(--white);
+  font-size: 42px;
+  text-transform: uppercase;
+  margin-top: 80px;
+  font-weight: bold;
+}
 .birth-of-ministry-page-wrapper .float-image {
   width: 400px;
   height: 400px;
@@ -458,6 +465,12 @@ footer {
 .birth-of-ministry-page-wrapper .float-image iframe {
   width: 100%;
   height: 100%;
+}
+.birth-of-ministry-page-wrapper .float-image.width-auto {
+  height: auto;
+}
+.birth-of-ministry-page-wrapper .float-image img {
+  width: 100%;
 }
 .birth-of-ministry-page-wrapper .float-image-with-background-and-title {
   background-color: var(--gold);
@@ -1059,4 +1072,58 @@ footer {
 .support-to-parent-middle-text h5 {
   font-size: 24px;
   text-align: center;
+}
+.testimonies-main-item-wrapper {
+  margin: 50px 0;
+}
+.testimonies-main-item-wrapper .short-testimonials {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonies-main-item-wrapper .short-testimonials p {
+  margin-bottom: 0;
+  max-width: 1000px;
+  text-align: left;
+  padding: 0 20px;
+}
+.testimonies-main-item-wrapper .short-testimonials .testimonials-item-footer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.testimonies-main-item-wrapper .short-testimonials .testimonials-item-footer a {
+  text-decoration: none;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: var(--gold);
+  padding-right: 200px;
+}
+.testimonies-main-item-wrapper .short-testimonials .testimonials-item-footer::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  height: 40px;
+  width: 190px;
+  background-color: var(--gold);
+}
+.testimonies-header-wrapper {
+  position: relative;
+}
+.testimonies-header-wrapper h3 {
+  margin: 50px 0 0 0;
+  font-size: 30px;
+  font-weight: 500;
+  color: var(--gold);
+  margin-left: 33%;
+}
+.testimonies-header-wrapper::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  height: 40px;
+  width: 30%;
+  background-color: var(--gold);
+  top: 3px;
 }

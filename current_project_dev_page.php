@@ -87,10 +87,10 @@
                                 Dancing
                             </div>
                         </a>
-                        <a href="./current_project_dev_page_theater.php" class="dev-page-item">
-                            <img src="./assets/theater-background.png" alt="Image 8"/>
+                        <a href="./current_project_dev_page_puppet_making.php" class="dev-page-item">
+                            <img src="./assets/puppet-making-background.png" alt="Image 8"/>
                             <div class="dev-page-title">
-                                Puppet Making ?
+                                Puppet Making
                             </div>
                         </a>
                         <a href="./current_project_dev_page_travel.php" class="dev-page-item">

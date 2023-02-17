@@ -76,27 +76,27 @@
                         <a href="./current_project_dev_page.php" class="book-item-padding">
                             <div class="book-flex">
                                 <div class="book-info">
-                                    <div class="book-circle">05</div>
+                                    <div class="book-circle">04</div>
                                     <span>Development Center</span>
                                 </div>
                                 <div class="book-item">
-                                    <img src="./assets/development-center-background.png" alt="info 3"/>
+                                    <img src="./assets/development-center-background.png" alt="info 4"/>
                                     <p>Text and audio versions of messages by Gayane Hakobyan that make fundamental changes in people’s lives</p>
                                 </div>
                             </div>
                         </a>
-                        <div class="book-item-padding">
+                        <a href="./testimonials.php" class="book-item-padding">
                             <div class="book-flex">
                                 <div class="book-info">
-                                    <div class="book-circle">06</div>
-                                    <span>Test Test Loooooong Text</span>
+                                    <div class="book-circle">05</div>
+                                    <span>Testimonials</span>
                                 </div>
                                 <div class="book-item">
                                     <img src="./assets/info2.png" alt="info 2"/>
                                     <p>Books by Gayane Hakobyan in text and audio formats</p>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
