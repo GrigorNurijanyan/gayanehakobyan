@@ -367,6 +367,18 @@ footer {
   }
 }
 
+.gh-button {
+  height: 40px;
+  background-color: var(--gold);
+  color: var(--lightblue);
+  font-size: 32px;
+  padding: 0px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  border-style: none;
+  text-transform: uppercase;
+}
+
 .form-group {
   margin-bottom: 15px;
   label {
@@ -477,6 +489,10 @@ footer {
   p {
     font-size: 26px;
     color: var(--grey);
+    &.right-text {
+      text-align: right;
+      margin: 5px 0;
+    }
   }
 
   .testimonies {
@@ -1047,10 +1063,10 @@ footer {
   .dev-page-item {
     text-decoration: none;
     img {
-        width: 100%;
-        object-fit: contain;
-        border-radius: 8px;
-        border: 2px solid var(--gold);
+      width: 100%;
+      object-fit: contain;
+      border-radius: 8px;
+      border: 2px solid var(--gold);
     }
   }
   .dev-page-title {
@@ -1080,6 +1096,11 @@ footer {
       border-radius: 0;
       height: 200px;
       object-fit: cover;
+    }
+    &.change-your-life-item {
+      img {
+        margin-top: 40px;
+      }
     }
   }
 }
@@ -1113,14 +1134,14 @@ footer {
 }
 
 .testimonies-slider {
-  display: flex!important;
+  display: flex !important;
   align-items: center;
   padding-top: 50px;
   .slick-arrow {
     cursor: pointer;
   }
   .testimonies-slider-item {
-    display: flex!important;
+    display: flex !important;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -1155,8 +1176,9 @@ footer {
   max-width: 800px;
   margin: auto;
   position: relative;
-  &::after, &::before {
-    content: '';
+  &::after,
+  &::before {
+    content: "";
     position: absolute;
     width: 23px;
     background-color: var(--gold);
@@ -1199,7 +1221,7 @@ footer {
         padding-right: 200px;
       }
       &::before {
-        content: '';
+        content: "";
         position: absolute;
         right: 0;
         height: 40px;
@@ -1220,12 +1242,72 @@ footer {
     margin-left: 33%;
   }
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     height: 40px;
     width: 30%;
     background-color: var(--gold);
     top: 3px;
+  }
+}
+
+.change-your-life-more {
+  display: flex;
+  justify-content: center;
+}
+
+.condition-parts-items-wrapper {
+  background-color: #002d44;
+  margin-top: 20px;
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .left-part {
+    h6 {
+      margin: 0;
+      color: var(--white);
+      font-size: 24px;
+      font-weight: 500;
+      text-transform: uppercase;
+      line-height: 26px;
+    }
+  }
+  .right-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid var(--gold);
+    transform: skewx(-20deg);
+    background-color: var(--gold);
+    width: 100px;
+    color: var(--white);
+    font-size: 36px;
+    line-height: 36px;
+    margin-right: 8px;
+  }
+}
+
+.condition-parts-title {
+  margin-bottom: 0;
+  font-size: 26px;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.before-after-image-block-wrapper {
+  .before-after-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 16px;
+    gap: 16px;
+    margin-bottom: 50px;
+    img {
+      width: 100%;
+    }
+    p {
+      text-align: center;
+    }
   }
 }

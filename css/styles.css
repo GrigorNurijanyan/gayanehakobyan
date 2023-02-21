@@ -324,6 +324,17 @@ footer {
   bottom: -14px;
   left: 40px;
 }
+.gh-button {
+  height: 40px;
+  background-color: var(--gold);
+  color: var(--lightblue);
+  font-size: 32px;
+  padding: 0px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  border-style: none;
+  text-transform: uppercase;
+}
 .form-group {
   margin-bottom: 15px;
 }
@@ -424,6 +435,10 @@ footer {
 .birth-of-ministry-page-wrapper p {
   font-size: 26px;
   color: var(--grey);
+}
+.birth-of-ministry-page-wrapper p.right-text {
+  text-align: right;
+  margin: 5px 0;
 }
 .birth-of-ministry-page-wrapper .testimonies {
   margin-top: -26px;
@@ -986,6 +1001,9 @@ footer {
   height: 200px;
   object-fit: cover;
 }
+.dev-page-items-wrapper .book-item.change-your-life-item img {
+  margin-top: 40px;
+}
 .testimonies-long-title-wrapper {
   min-height: 51px;
   background-color: var(--lightGray);
@@ -1014,7 +1032,7 @@ footer {
   text-transform: uppercase;
 }
 .testimonies-slider {
-  display: flex!important;
+  display: flex !important;
   align-items: center;
   padding-top: 50px;
 }
@@ -1022,7 +1040,7 @@ footer {
   cursor: pointer;
 }
 .testimonies-slider .testimonies-slider-item {
-  display: flex!important;
+  display: flex !important;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -1057,7 +1075,7 @@ footer {
 }
 .support-to-parent-middle-text::after,
 .support-to-parent-middle-text::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 23px;
   background-color: var(--gold);
@@ -1101,7 +1119,7 @@ footer {
   padding-right: 200px;
 }
 .testimonies-main-item-wrapper .short-testimonials .testimonials-item-footer::before {
-  content: '';
+  content: "";
   position: absolute;
   right: 0;
   height: 40px;
@@ -1119,11 +1137,63 @@ footer {
   margin-left: 33%;
 }
 .testimonies-header-wrapper::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   height: 40px;
   width: 30%;
   background-color: var(--gold);
   top: 3px;
+}
+.change-your-life-more {
+  display: flex;
+  justify-content: center;
+}
+.condition-parts-items-wrapper {
+  background-color: #002d44;
+  margin-top: 20px;
+}
+.condition-parts-items-wrapper .container {
+  display: flex;
+  justify-content: space-between;
+}
+.condition-parts-items-wrapper .left-part h6 {
+  margin: 0;
+  color: var(--white);
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 26px;
+}
+.condition-parts-items-wrapper .right-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid var(--gold);
+  transform: skewx(-20deg);
+  background-color: var(--gold);
+  width: 100px;
+  color: var(--white);
+  font-size: 36px;
+  line-height: 36px;
+  margin-right: 8px;
+}
+.condition-parts-title {
+  margin-bottom: 0;
+  font-size: 26px;
+  text-transform: uppercase;
+  color: var(--black);
+}
+.before-after-image-block-wrapper .before-after-image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 16px;
+  gap: 16px;
+  margin-bottom: 50px;
+}
+.before-after-image-block-wrapper .before-after-image img {
+  width: 100%;
+}
+.before-after-image-block-wrapper .before-after-image p {
+  text-align: center;
 }

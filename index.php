@@ -97,6 +97,18 @@
                                 </div>
                             </div>
                         </a>
+                        <a href="./change_your_life.php" class="book-item-padding">
+                            <div class="book-flex">
+                                <div class="book-info">
+                                    <div class="book-circle">06</div>
+                                    <span>Change Your Life</span>
+                                </div>
+                                <div class="book-item">
+                                    <img src="./assets/info3.png" alt="info 3"/>
+                                    <p>Text and audio versions of messages by Gayane Hakobyan that make fundamental changes in people’s lives</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>

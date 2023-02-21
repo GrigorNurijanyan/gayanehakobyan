@@ -326,6 +326,10 @@
     font-size: 24px;
     padding: 30px 20px 0 60px;
   }
+  .condition-parts-items-wrapper .left-part h6 {
+    font-size: 14px;
+    line-height: 18px;
+  }
 }
 @media screen and (max-width: 479px) {
   .pages-subinfo-wrapper .book-item-padding {
