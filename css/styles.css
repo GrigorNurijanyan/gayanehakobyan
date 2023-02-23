@@ -1004,6 +1004,22 @@ footer {
 .dev-page-items-wrapper .book-item.change-your-life-item img {
   margin-top: 40px;
 }
+.dev-page-items-wrapper .book-item.sermons-item {
+  box-shadow: inset 0 0 18px 2px #514327;
+  border: 2px solid var(--gold);
+  position: relative;
+}
+.dev-page-items-wrapper .book-item.sermons-item img {
+  margin-top: 40px;
+}
+.dev-page-items-wrapper .book-item.sermons-item .camera {
+  height: auto;
+  position: absolute;
+  width: 50px;
+  margin: 0;
+  top: -35px;
+  left: 30px;
+}
 .testimonies-long-title-wrapper {
   min-height: 51px;
   background-color: var(--lightGray);
@@ -1030,6 +1046,18 @@ footer {
   top: -42px;
   color: var(--white);
   text-transform: uppercase;
+}
+.testimonies-long-title-wrapper .container {
+  width: 100%;
+}
+.testimonies-long-title-wrapper .video-wrapper {
+  background-color: transparent;
+  height: 43vh;
+  width: 80%;
+  margin: 0 auto;
+}
+.testimonies-long-title-wrapper .video-wrapper iframe {
+  width: 100%;
 }
 .testimonies-slider {
   display: flex !important;
@@ -1196,4 +1224,60 @@ footer {
 }
 .before-after-image-block-wrapper .before-after-image p {
   text-align: center;
+}
+.sermons-page-item {
+  margin-top: 50px;
+}
+.sermons-page-item .sermons-page-title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sermons-page-item .sermons-page-title-wrapper .title-border-item {
+  background-color: #002d44;
+  height: 60px;
+  width: 100%;
+}
+.sermons-page-item .sermons-page-title-wrapper span {
+  font-size: 26px;
+  font-weight: bold;
+  color: #002d44;
+  padding: 0 10px;
+  width: 70%;
+  text-transform: uppercase;
+  text-align: center;
+}
+.sermons-video-item {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.sermons-video-item .video-item {
+  margin-top: 50px;
+}
+.sermons-video-item .video-item iframe {
+  width: 100%;
+  height: 43vw;
+}
+.sermons-video-item .video-item h6 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.sermons-video-item .video-item h6 .part-video {
+  width: 50px;
+  height: 30px;
+  background-color: var(--gold);
+  color: var(--lightblue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 4px;
+  margin-right: 10px;
+  font-size: 16px;
+  text-transform: none;
 }

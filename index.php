@@ -109,6 +109,18 @@
                                 </div>
                             </div>
                         </a>
+                        <a href="./sermons.php" class="book-item-padding">
+                            <div class="book-flex">
+                                <div class="book-info">
+                                    <div class="book-circle">07</div>
+                                    <span>Sermons</span>
+                                </div>
+                                <div class="book-item">
+                                    <img src="./assets/development-center-background.png" alt="info 4"/>
+                                    <p>Text and audio versions of messages by Gayane Hakobyan that make fundamental changes in people’s lives</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
