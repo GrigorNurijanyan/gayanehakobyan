@@ -1397,3 +1397,53 @@ footer {
     }
   }
 }
+
+.blue-background {
+  background-color: var(--lightblue);
+  height: 100%;
+  p {
+    color: var(--white);
+  }
+  .pages-subinfo-wrapper {
+    background-color: var(--lightblue);
+  }
+  .dev-page-items-wrapper {
+    .book-item.sermons-item {
+      background-color: var(--lightblue);
+      box-shadow: inset 0 0 18px 2px #000000;
+    }
+  }
+  .sermons-page-item {
+    margin-top: 200px;
+    & + .sermons-page-item {
+      margin-top: 50px;
+    }
+  }
+  .sermons-video-item {
+    .video-item {
+      margin-top: 10px;
+    }
+    h6 {
+      color: var(--white);
+    }
+  }
+  .condition-parts-items-wrapper {
+    margin-top: 0;
+    .container {
+      justify-content: center;
+    }
+    .left-part {
+      h6 {
+        color: var(--gold);
+        line-height: normal;
+        font-size: 36px;
+        padding-bottom: 8px;
+      }
+    }
+    .right-part {
+      margin-right: 0;
+      margin-left: 20px;
+      color: #002d44;
+    }
+  }
+}

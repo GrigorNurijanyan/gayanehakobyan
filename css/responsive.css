@@ -330,6 +330,12 @@
     font-size: 14px;
     line-height: 18px;
   }
+  .blue-background .sermons-page-item {
+    margin-top: 100px;
+  }
+  .blue-background .condition-parts-items-wrapper .left-part h6 {
+    font-size: 30px;
+  }
 }
 @media screen and (max-width: 479px) {
   .pages-subinfo-wrapper .book-item-padding {

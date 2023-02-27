@@ -121,6 +121,18 @@
                                 </div>
                             </div>
                         </a>
+                        <a href="./other_recomendations.php" class="book-item-padding">
+                            <div class="book-flex">
+                                <div class="book-info">
+                                    <div class="book-circle">05</div>
+                                    <span>Other Recomendations</span>
+                                </div>
+                                <div class="book-item">
+                                    <img src="./assets/info2.png" alt="info 2"/>
+                                    <p>Books by Gayane Hakobyan in text and audio formats</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
