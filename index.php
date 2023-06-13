@@ -34,6 +34,7 @@
             <div class="home-page-slider-container">
                 <img src="./assets/sliderimg.png" alt="sliderimg"/>
             </div>
+            <div class='blue-line'></div>
             <div class="home-page-books-info-wrapper">
                 <div class="container">
                     <div class="books-slider">
@@ -124,12 +125,36 @@
                         <a href="./other_recomendations.php" class="book-item-padding">
                             <div class="book-flex">
                                 <div class="book-info">
-                                    <div class="book-circle">05</div>
+                                    <div class="book-circle">08</div>
                                     <span>Other Recomendations</span>
                                 </div>
                                 <div class="book-item">
                                     <img src="./assets/info2.png" alt="info 2"/>
                                     <p>Books by Gayane Hakobyan in text and audio formats</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./other_recomendations.php" class="book-item-padding">
+                            <div class="book-flex">
+                                <div class="book-info">
+                                    <div class="book-circle">09</div>
+                                    <span>News</span>
+                                </div>
+                                <div class="book-item">
+                                    <img src="./assets/info2.png" alt="info 2"/>
+                                    <p>The are the latest news.</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="./other_recomendations.php" class="book-item-padding">
+                            <div class="book-flex">
+                                <div class="book-info">
+                                    <div class="book-circle">10</div>
+                                    <span>Speak Up</span>
+                                </div>
+                                <div class="book-item">
+                                    <img src="./assets/info2.png" alt="info 2"/>
+                                    <p>TV Program</p>
                                 </div>
                             </div>
                         </a>

@@ -53,6 +53,9 @@
                     <img src="./assets/gayanehakobyan.png" alt="Gayane Hakobyan">
                 </div>
             </div>
+            <div class="video-with-text-and-images-wrapper row-video">
+                  <iframe src="https://www.youtube.com/embed/xQTCqAY-32c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
           </div>
         </div>
         <?php
