@@ -351,9 +351,14 @@
   .hearts-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
+  .flags-wrapper .flag-item {
+    align-items: center;
+    text-align: center;
+  }
   .flags-wrapper .flag-item p {
     bottom: 0;
     left: 0;
+    width: 100%;
   }
   .restroation-wrapper .restoration-image-with-text iframe {
     height: 250px;

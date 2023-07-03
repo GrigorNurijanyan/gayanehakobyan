@@ -46,30 +46,30 @@
                     <h2>THE GOALS OF THE PROGRAM</h2>
                     <div class="flags-wrapper">
                         <div class="flag-item">
-                            <img src="./assets/flag.png" alt="Flag Image"/>
+                            <div class="circle"></div>
                             <p>To make the voice of children heard.</p>
                         </div>
                         <div class="flag-item">
-                            <img src="./assets/flag.png" alt="Flag Image"/>
+                            <div class="circle"></div>
                             <p>To pass a Foster Care Program Bill constitutionally in the Republic of Armenia, due to which each abandoned child will have an opportunity to live in a warm family atmosphere.</p>
                         </div>
                         <div class="flag-item">
-                            <img src="./assets/flag.png" alt="Flag Image"/>
+                            <div class="circle"></div>
                             <p>To prevent children from getting into orphanages.</p>
                         </div>
                     </div>
                     <div class="text-center-block has-margin">In 2005, a Provision on Custody and Foster Care was added in the Constitution of the Republic of Armenia.</div>
                     <div class="hearts-wrapper">
                         <div class="heart-item">
-                            <img src="./assets/heart.png" alt="Heart Image"/>
+                            <div class="circle"></div>
                             <p>Work with the biological parents</p>
                         </div>
                         <div class="heart-item">
-                            <img src="./assets/heart.png" alt="Heart Image"/>
+                            <div class="circle"></div>
                             <p>Work with the children</p>
                         </div>
                         <div class="heart-item">
-                            <img src="./assets/heart.png" alt="Heart Image"/>
+                            <div class="circle"></div>
                             <p>Work with the foster parents</p>
                         </div>
                     </div>
